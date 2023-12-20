@@ -160,4 +160,4 @@ export PATH=$PATH:$GOPATH/bin
 export PATH=$HOME/.local/share/bob/nvim-bin:$PATH
 
 #dofiles git repo bare
-dotfiles='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
+alias dotfiles='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
